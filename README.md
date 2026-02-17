@@ -54,3 +54,14 @@ g++ calculator.cpp -o calculator
 ./matrix
 ./calculator
 # Program
+
+```
+Where `math.h` header file included, use `-lm` flag during compilation.
+
+```bash
+# Compile
+gcc waveLengthSeries.c -o waveLengthSeries -lm
+
+# Run
+./waveLengthSeries
+# Program
